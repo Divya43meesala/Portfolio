@@ -1,0 +1,41 @@
+<html>
+    <style>
+        .bg{
+            background-color:black;
+        }
+        .h{
+            text-align:center;
+            color:white;
+            font-weight:bold;
+            font-size:30px;
+        }
+        .web{
+            color:darkgreen;
+            text-align:center;
+            font-size:30px;
+        }
+        .th{
+            margin-left:150px;
+            font-style:oblique;
+            color:white;  
+            font-size:24px; 
+            margin-top:100px;  
+           }
+        .last{
+            font-weight:bold;
+            font-size:25px;
+            color:white;
+        }
+        </style>
+<body class="bg">
+    <h1 class="h">About</h1>
+<br><br><hr><br><br>
+<h1 class="web">WEB-DEVELOPER</h1>
+<div class="th">
+    <p>Thanks for your interest,here there is a quick story of me and this website.<br><br>
+    Iam MEESALA DIVYA.<br><br>I do my work mainly in FRONT-END Web Development,Besides I know Java,C,C++,Python.</p><br>
+<p>THANK YOU!.</p></div>
+</body>
+</html>
+
+

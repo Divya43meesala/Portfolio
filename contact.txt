@@ -1,0 +1,73 @@
+<html>
+<style>
+    .bg{
+        background-color:lightgrey;
+    }
+    .hd{
+        color:black;
+        text-align:center;
+        font-family:Verdana;
+        padding:20px;
+        letter-spacing:2px;
+        text-decoration-color:black;
+        text-decoration:underline;
+        
+    }
+    .big{
+        background-color:black;
+        margin-left:400px;
+        margin-right:500px;
+        margin-top:100px;
+        margin-bottom:400px;
+        width:500px;
+    }
+    label{
+        color:white;
+        font-family:verdana;
+        margin-top:100px;
+        font-size:20px;
+        margin-left:10px;
+        padding:50px;
+        padding-top:50px;
+    }
+    .ip{
+        margin-left:50px;
+        width:250px;
+        margin-top:30px;
+    }
+    .ip1{
+        width:150px;
+    }
+    textarea{
+        margin-top:50px;
+        width:250px;
+        height:80px;
+    }
+    .lab{
+        margin-top:-10px;
+    }
+    button{
+        background-color:white;
+        color:black;
+       margin-top:10px;
+        font-weight:bold;
+        margin-left:200px;
+        border:2px solid black;
+        border-radius:2px;
+        height:30px;
+        width:80px;
+        margin-bottom:30px;
+        text-align:center;
+    }
+    </style>
+<body class="bg">
+    <h1 class="hd">Contact</h1>
+    <div class="big">
+        <label>Name<input type="text" class="ip"></label>
+        <label>Email<input type="text" class="ip"></label>
+        <label>Number<input type="text" class="ip ip1"></label>
+        <label class="lab">Message</label><textarea></textarea><br><br>
+        <button>Submit</button>
+    </div>
+</body>
+</html>
